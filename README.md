@@ -7,6 +7,8 @@ Housing prices prediction with XGBoost algorithm. The train and test datasets we
 
   (3) We implemented a XGBoost model with 1000 estimators (trees) and a learning rate of 0.05.
 
+  (4) To train the model, we use the logarithm of the SalePrice, to account equaly the error of more expensive and cheaper houses.
+
 ![image](https://github.com/user-attachments/assets/0615b2ac-2572-4f19-aeb0-2bf47fb5d7c7)
 
 We end up with a decent model that underprices the higher houses in the spectrum. The mean error is of 15.8 K$.
