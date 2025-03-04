@@ -1,6 +1,6 @@
 # Housing_prices
 
-This is a test
+This is still a test
 
 Housing prices prediction with XGBoost algorithm. The train and test datasets were obtained from a Kaggle competition. ALl the code is done ina  single Python notebook. The main considerations are:
 
